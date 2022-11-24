@@ -11,3 +11,9 @@ class SpiderItem(scrapy.Item):
     name = scrapy.Field()
     translate = scrapy.Field()
     pass
+
+
+class HwxnetItem(scrapy.Item):
+    key = scrapy.Field()
+    value = scrapy.Field()
+    pass
