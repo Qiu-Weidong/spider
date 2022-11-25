@@ -17,3 +17,13 @@ class HwxnetItem(scrapy.Item):
     key = scrapy.Field()
     value = scrapy.Field()
     pass
+
+
+class HanyuguoxueItem(scrapy.Item):
+    key = scrapy.Field()
+    variant = scrapy.Field()
+    basic = scrapy.Field()
+    detail = scrapy.Field()
+    translate = scrapy.Field()
+    pass
+
