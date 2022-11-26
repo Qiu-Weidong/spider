@@ -5,8 +5,8 @@ from scrapy.selector.unified import SelectorList
 from spider.items import HanyuguoxueItem
 
 # 这里设置了爬取的汉字范围
-st = 0x9e00
-ed = 0x9fa6
+st = 0x3400
+ed = 0x4db6
 
 
 class HanyuguoxueSpider(scrapy.Spider):
